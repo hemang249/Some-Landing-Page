@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu',sans-serif;
+    
+}
+
+header {
+    max-width: 100%;
+    height: 100vh;
+    background-image:  url('../img/hero6.jpg');
+    background-size: 100% 100%;
+    object-fit: contain;
+}
+
+.hero-description {
+    padding-left: 50%;
+    padding-top: 10%;
+    color: black;    
+}
+
+.heading-primary {
+    font-family: 'Kaushan Script';
+    font-size: 3.5rem;
+    font-weight: bold;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+.btn-explore {
+    margin-top: 5%;
+    width: 30%;
+    height: 7vh;
+    background-color: #03a9f4  ;
+    border: none;
+    color: white;
+}
+
+.btn-explore:hover {
+    background-color: #0277bd;
+}
+
+.navbar {
+    max-width: 100%;
+    height: 10vh;
+}
+
+.nav-title {
+    width: 13%;
+    height: 7vh;
+    font-family: 'Kaushan Script';
+    background-color: rgba(214, 220, 221, 0.4);
+    float: left;
+    color: black ;
+    font-size: 2rem;
+}
+
+.nav-item {
+    float: right;
+    color: white;
+    list-style-type: none;
+    margin-right: 5%;
+    font-weight: bold;
+}
+
+.locations {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.locations-heading {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.locations-description {
+    margin-top: 2%;
+    font-size: 1.2rem;
+
+}
+
+.locations-flex-container {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.location-flex-item {
+    width: 25%;
+    height: 60vh;
+}
+
+.location:not(:first-child){
+    margin-left: 5%;
+}
+
+.location-img {
+    width: 100%;
+    height: 100%;
+}
+
+.location-name {
+    margin-top: 4%;
+    text-align: center;
+}
+
+.about {
+    max-width: 100%;
+    height: 70vh;
+   
+}
+
+.about-flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-description {
+    width: 50%;
+    background-color: #212121;
+    padding-top: 5%;
+    padding-left: 7%;
+    color: white;
+}
+
+.about-img {
+    width: 50%;
+}
+
+.about-content {
+    margin-top: 7%;
+}
+
+.btn-register {
+    margin-top: 10%;
+    width: 25%;
+    height: 5vh;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+}
+
+.btn-register:hover{
+    background-color: #d84315;
+}
+
+.photo-gallery {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.gallery-flex-container {
+    display: flex;
+    flex-direction: row;
+}   
+
+footer {
+    background-color: #212121;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 25vh;
+}
+
+.footer-links{
+    
+    margin-top: 5%;
+    margin-left: 40%;
+    color: white;
+}
+
+.fl {
+    float: left;
+    list-style-type: none;
+}
+
+.fl:not(:first-child){
+    margin-left: 2%;
+}
+
+.footer-cp {
+    margin-top: 2%;
+    color: white;
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.25;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
